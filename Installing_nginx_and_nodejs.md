@@ -1,11 +1,14 @@
+## Installing nginx and nodelJS in Ansible
 
 `sudo ansible web -m ping`
 
 `sudo nano hosts`
 
-`ec2-instance ansible_host=34.244.24.173 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/.ssh/tech254.pem
-# sudo chmod 400 tech254.pem`
-
+To check the connection is connected properly:
+```
+ec2-instance ansible_host=34.244.24.173 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/.ssh/tech254.pem
+# sudo chmod 400 tech254.pem
+```
 
 
 Create new script to install ngin: `sudo nano install-nginx.yml`
