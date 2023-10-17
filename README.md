@@ -1,9 +1,9 @@
-## Ansiible
+## Ansible
 - open-source automation tool
 - used for configuration management (see below), application deployment and task automation
 
 Diagram below:
-![](\Screenshots\ansiblescrsh.png)
+![](Screenshots\ansiblescrsh.png)
 
 #### Diagram explained:
 1. AWS Cloud provider is SSH connected to Ansible 
