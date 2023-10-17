@@ -77,5 +77,5 @@ Run the script: `sudo ansible-playbook install-nodejs.yml`
 
 Should out the below:
 
-![](\Screenshots\install_nodejs.png)
+![](install_nodejs.png)
 
